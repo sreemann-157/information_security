@@ -115,7 +115,7 @@ function getMatrixValues(n) {
     for (let j = 0; j < n; j++) {
       const val = parseInt(document.getElementById(`key-${i}-${j}`).value);
       if (isNaN(val)) {
-        alert("⚠️ Fill all key matrix values before continuing!");
+        alert(" Fill all key matrix values before continuing!");
         throw new Error("Incomplete key matrix");
       }
       row.push(mod(val, 26));
