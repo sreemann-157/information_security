@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7faff;
+  color: #222;
+  margin: 40px;
+}
+header {
+  text-align: center;
+  border-bottom: 3px solid #00509e;
+  margin-bottom: 20px;
+}
+h1,
+h2 {
+  color: #00509e;
+}
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+button {
+  background-color: #00509e;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #003f7f;
+}
+#matrixInputs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.matrix-row {
+  margin-bottom: 5px;
+}
+.matrix-cell {
+  width: 40px;
+  text-align: center;
+  margin: 2px;
+}
+#outputArea {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+#matrixDetails {
+  margin-top: 15px;
+}
+#matrixDetails table {
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+#matrixDetails td {
+  border: 1px solid #999;
+  padding: 4px 8px;
+  text-align: center;
+}
